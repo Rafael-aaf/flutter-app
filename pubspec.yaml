@@ -1,0 +1,194 @@
+name: projeto_desenvolvimento_de_software
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.4.0
+  flutter_launcher_icons: ^0.14.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/animal dog.jpg
+     - assets/animal-pato.jpg
+     - assets/animal-porco.jpg
+     - assets/animal-gato.jpg
+     - assets/animal-rata.jpg
+     - assets/animal-vaca.jpg
+     - assets/numero-0.jpg
+     - assets/numero-1.jpg
+     - assets/numero-2.jpg
+     - assets/numero-3.jpg
+     - assets/numero-4.jpg
+     - assets/numero-5.jpg
+     - assets/numero-6.jpg
+     - assets/numero-7.jpg
+     - assets/numero-8.jpg
+     - assets/numero-9.jpg
+     - assets/pessoa-avo.jpeg
+     - assets/pessoa-avoo.jpeg
+     - assets/pessoa-irma.jpeg
+     - assets/pessoa-irmao.jpeg
+     - assets/pessoa-mae.jpeg
+     - assets/pessoa-pai.jpeg
+     - assets/pessoa-prof.jpeg
+     - assets/comida-arroz.jpg
+     - assets/comida-feijao.jpg
+     - assets/comida-macarrao.png
+     - assets/comida-pao.jpg
+     - assets/comida-pizza.png
+     - assets/comida-sanduiche.png
+     - assets/acoes-banheiro.png
+     - assets/acoes-banho.png
+     - assets/acoes-brincar.png
+     - assets/acoes-comer.png
+     - assets/acoes-dormir.png
+     - assets/acoes-tv.png
+     - assets/bebida-agua.png
+     - assets/bebida-leite.png
+     - assets/bebida-refrigerante.png
+     - assets/bebida-suco.png
+     - assets/objetos-brinquedo.png
+     - assets/objetos-celular.png
+     - assets/objetos-chupeta.png
+     - assets/objetos-lapis.png
+     - assets/objetos-livro.png
+     - assets/objetos-pelucia.png
+     - assets/sentimentos-bravo.png
+     - assets/sentimentos-feliz.png
+     - assets/sentimentos-medo.png
+     - assets/sentimentos-triste.png
+     - assets/animal-pato.mp3
+     - assets/animal-cachorro.mp3
+     - assets/animal-gato.mp3
+     - assets/animal-rato.mp3
+     - assets/animal-porco.mp3
+     - assets/animal-vaca.mp3
+     - assets/acoes-banheiro.mp3
+     - assets/acoes-banho.mp3
+     - assets/acoes-brincar.mp3
+     - assets/acoes-comer.mp3
+     - assets/acoes-dormir.mp3
+     - assets/acoes-tv.mp3
+     - assets/bebida-agua.mp3
+     - assets/bebida-leite.mp3
+     - assets/bebida-suco.mp3
+     - assets/bebida-refrigerante.mp3
+     - assets/comida-arroz.mp3
+     - assets/comida-feijão.mp3
+     - assets/comida-macarrao.mp3
+     - assets/comida-pao.mp3
+     - assets/comida-pizza.mp3
+     - assets/comida-sanduiche.mp3
+     - assets/numero-zero.mp3
+     - assets/numero-um.mp3
+     - assets/numero-dois.mp3
+     - assets/numero-tres.mp3
+     - assets/numero-quatro.mp3
+     - assets/numero-cinco.mp3
+     - assets/numero-seis.mp3
+     - assets/numero-sete.mp3
+     - assets/numero-oito.mp3
+     - assets/numero-nove.mp3
+     - assets/objetos-brinquedo.mp3
+     - assets/objetos-celular.mp3
+     - assets/objetos-chupeta.mp3
+     - assets/objetos-lapis.mp3
+     - assets/objetos-livro.mp3
+     - assets/objetos-pelucia.mp3
+     - assets/pessoa-avo.mp3
+     - assets/pessoa-avoh.mp3
+     - assets/pessoa-irma.mp3
+     - assets/pessoa-irmao.mp3
+     - assets/pessoa-mae.mp3
+     - assets/pessoa-pai.mp3
+     - assets/pessoa-professora.mp3
+     - assets/sentimento-bravo.mp3
+     - assets/sentimento-feliz.mp3
+     - assets/sentimento-medo.mp3
+     - assets/sentimento-triste.mp3
+     - assets/logo-unisagrado-cc.jpg
+     - assets/logo-unisagrado-cord-extensao.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+flutter_icons:
+   android: true
+   image_path: "assets/icone_app.jpg"
