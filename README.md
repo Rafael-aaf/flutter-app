@@ -1,16 +1,32 @@
-# projeto_desenvolvimento_de_software
+# Fala Fácil
 
-A new Flutter project.
+Um aplicativo desenvolvido em Flutter para o meu projeto do semestre na matéria extencionista Desenvolvimento de Software. O tema era criar um app para crianças autistas não-verbais,para que, atráves do aplicativo, elas pudessem se comunicar com mais facilidade.
 
-## Getting Started
+##  Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Botões Interativos com imagens criadas por IA
+- Cada botão reproduz um áudio, gerado por IA, que descreve a imagem
+- Há no total 10 telas com 46 botões
 
-A few resources to get you started if this is your first Flutter project:
+## Imagem da Tela Inicial
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Image](https://github.com/user-attachments/assets/dcdcdad5-4e87-474a-9ee0-5ee45f61f2ad)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Tecnologias utilizadas
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- cupertino_icons: ^1.0.8
+- audioplayers: ^6.4.0
+- flutter_launcher_icons: ^0.14.3
+
+## ⚙ Como executar
+
+1. Clone este repositório:  
+   `git clone https://github.com/Rafael-aaf/flutter-app.git`  
+2. Acesse a pasta do projeto:  
+   `cd flutter-app`  
+3. Instale as dependências:  
+   `flutter pub get`  
+4. Execute o app:  
+   `flutter run`  
